@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E5AB5C76-A78B-41E7-AF92-9F757E636F56}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E5AB5C76-A78B-41E7-AF92-9F757E636F56}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="bnkAMBIENCE" ID="{184BA390-2F28-4893-A321-F9C336C6ED1B}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>5000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_amb_WIND" ID="{58DF6813-9EB6-407E-AEDA-6B6BDCD99E4C}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_amb_DRONE" ID="{3097253A-F944-41E7-9222-0361C3D47951}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AmbMAIN" ID="{4383C338-F747-46A8-BC80-EFF71FCA951F}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnkSFX" ID="{C5449CC7-462C-421F-A109-DF9B21CE3B77}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>1000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_sfxTEST" ID="{1B1C4182-F694-453C-A330-BA148C46A7E5}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_obj_CUBE" ID="{B584995F-0543-4580-997B-169B3068747D}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rifle_IMPACT" ID="{62811508-2FD8-4CA6-852A-61E0CBDC8B4A}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rifle_EQUIP" ID="{23B5D617-4282-4D68-9947-9392EFAC52DD}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Rifle_FIRE" ID="{9A9E3400-FBA0-4E68-9DB0-681230C80072}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="bnkPERSON" ID="{B5EEEB1B-2088-4871-876C-0D75FC70A0C2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Pers_JumpUp" ID="{3B0BDDBA-6B02-474C-B9C5-68A3280A2B06}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pers_JumpDown" ID="{E18E9AA0-F524-4AE4-8EEE-C1083928E2AD}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pers_FOOTSTEPS" ID="{02742F9E-0144-4F7B-ADCB-039769BB6F3B}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

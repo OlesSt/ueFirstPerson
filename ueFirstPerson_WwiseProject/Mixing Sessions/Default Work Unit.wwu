@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E0B258F-4E67-410A-AA63-F49351555FC8}" SchemaVersion="123">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{5E0B258F-4E67-410A-AA63-F49351555FC8}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="ALL_MIXING" ID="{46172532-EFE3-4B45-BBF0-E2BEB53FA404}">
+					<ObjectList>
+						<ObjectRef Name="vcaAMBIENCE" ID="{FCDA6DDC-AD66-4B00-AF80-6ED5ABC68DD1}" WorkUnitID="{A4939027-6A39-4E05-8FD7-67C4103917B7}"/>
+						<ObjectRef Name="vcaPERSON" ID="{DB2E1EAE-8696-437D-9970-4261A81F045E}" WorkUnitID="{A4939027-6A39-4E05-8FD7-67C4103917B7}"/>
+						<ObjectRef Name="vcaSFX" ID="{5C0AC35A-07EE-4318-9DA3-100FE970D03C}" WorkUnitID="{A4939027-6A39-4E05-8FD7-67C4103917B7}"/>
+						<ObjectRef Name="auxREVERB" ID="{A6FB3D01-8D70-4827-B390-49E27AE62480}" WorkUnitID="{A4939027-6A39-4E05-8FD7-67C4103917B7}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A4939027-6A39-4E05-8FD7-67C4103917B7}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="mix_AMB" ID="{7CE19705-5684-4A38-A3A6-6B3305BA7D8E}">
+					<ObjectList>
+						<ObjectRef Name="amb_MAIN" ID="{0D4840CB-AEA2-4A4C-965F-485B34A30AF8}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+						<ObjectRef Name="amb_AIR" ID="{83B71EE7-BF03-4BE4-998A-268B7927924E}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+						<ObjectRef Name="amb_WIND" ID="{E5B8749F-451A-4CC2-A5C2-A93D17784DBB}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+						<ObjectRef Name="amb_DRONE" ID="{B80463AE-B691-490F-B7ED-668A6F3CB33B}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+						<ObjectRef Name="AMBIENCE" ID="{33DC8C07-56E5-440E-8683-E698C328EB69}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

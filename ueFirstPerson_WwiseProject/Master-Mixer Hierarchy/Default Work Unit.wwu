@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A4939027-6A39-4E05-8FD7-67C4103917B7}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{A4939027-6A39-4E05-8FD7-67C4103917B7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{AA660B5C-FD70-44D8-B053-5232F22967F0}" WorkUnitID="{939FBEE2-B66F-4F3A-8835-77E4EA130A9E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="vcaSFX" ID="{5C0AC35A-07EE-4318-9DA3-100FE970D03C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="vcaAMBIENCE" ID="{FCDA6DDC-AD66-4B00-AF80-6ED5ABC68DD1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="vcaPERSON" ID="{DB2E1EAE-8696-437D-9970-4261A81F045E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<AuxBus Name="auxREVERB" ID="{A6FB3D01-8D70-4827-B390-49E27AE62480}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A4FC2F08-C9BD-4F32-9349-DBE2C53373CD}" ShortID="805539722">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{494457E0-D2A3-4805-83DC-5583E3D31A0D}" ShortID="943139289">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+												<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{CB12007B-1566-40BB-BECE-5C3D65085284}" ShortID="556667553"/>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

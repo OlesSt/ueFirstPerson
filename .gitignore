@@ -1,0 +1,24 @@
+# Unreal
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.xcworkspace
+*.xcodeproj
+*.sln
+
+# Wwise
+Plugins/Wwise/Intermediate/
+Plugins/WwiseSoundEngine/Intermediate/
+Plugins/WwiseSoundEngine/Binaries/
+ueFirstPerson_WwiseProject/GeneratedSoundBanks/
+ueFirstPerson_WwiseProject/.cache/
+
+# Mac
+.DS_Store
+Plugins/

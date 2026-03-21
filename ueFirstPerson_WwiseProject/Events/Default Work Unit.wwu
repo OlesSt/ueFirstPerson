@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_sfxTEST" ID="{1B1C4182-F694-453C-A330-BA148C46A7E5}"/>
+				<Event Name="Play_Rifle_FIRE" ID="{9A9E3400-FBA0-4E68-9DB0-681230C80072}">
+					<ChildrenList>
+						<Action Name="" ID="{AE73A359-3872-47F9-A0C8-9016B2DC7111}" ShortID="745205504">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rifle_SHOOT" ID="{22D38FF0-5A10-472E-9ABE-F20CA7860943}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7D6240D5-8E2A-4A09-BEFF-280C3B362B3C}" ShortID="198103840">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rifle_SHELLS" ID="{EF1AED11-3190-4CA3-A8E1-01A7FDA6EC36}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rifle_EQUIP" ID="{23B5D617-4282-4D68-9947-9392EFAC52DD}">
+					<ChildrenList>
+						<Action Name="" ID="{4B24E957-BE1D-41C7-B0A5-C340D48EAD82}" ShortID="340791338">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rifle_EQUIP" ID="{058275DC-F2DA-4641-B6BA-DBE0AFBBA28A}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pers_FOOTSTEPS" ID="{02742F9E-0144-4F7B-ADCB-039769BB6F3B}">
+					<ChildrenList>
+						<Action Name="" ID="{3F74E5FC-7C29-4FFE-A810-AAC98E191F4F}" ShortID="861250326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pers_Steps" ID="{4D2B8DF8-488B-417D-9705-F110431FEB62}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2CBFA19-6361-47A2-A3EF-C87F8856F7A3}" ShortID="881352659">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.07"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pers_Foley" ID="{3661ADF7-CBC7-4C3B-B6B6-B454033BE9A3}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_obj_CUBE" ID="{B584995F-0543-4580-997B-169B3068747D}">
+					<ChildrenList>
+						<Action Name="" ID="{051A09D4-488F-4C0A-A70A-30BB33C70EC8}" ShortID="959710851">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="obj_CUBE" ID="{5D9341C6-2973-45A7-A343-CE4369123A0E}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmbMAIN" ID="{4383C338-F747-46A8-BC80-EFF71FCA951F}">
+					<ChildrenList>
+						<Action Name="" ID="{520C79A8-27D4-4831-A94D-00CCB4023059}" ShortID="317077526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_MAIN" ID="{0D4840CB-AEA2-4A4C-965F-485B34A30AF8}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1A25F8F4-5126-4323-AE4B-034F31FD2CC2}" ShortID="1036081073">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FB036C03-C10C-4806-AD1C-0AE45D959FD3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.2"/>
+													<Property Name="Min" Type="Real64" Value="-0.2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_AIR" ID="{83B71EE7-BF03-4BE4-998A-268B7927924E}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rifle_IMPACT" ID="{62811508-2FD8-4CA6-852A-61E0CBDC8B4A}">
+					<ChildrenList>
+						<Action Name="" ID="{CE558AF4-42D7-43A5-BDBE-EB5EB029F073}" ShortID="891550904">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rifle_IMPACT" ID="{74C69BA7-1981-4EB6-AF92-624399FC6C27}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pers_JumpDown" ID="{E18E9AA0-F524-4AE4-8EEE-C1083928E2AD}">
+					<ChildrenList>
+						<Action Name="" ID="{1F7FED5A-2668-4308-B596-785069DB2578}" ShortID="432528890">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pers_JumpDown" ID="{0685A770-9679-429E-A789-32BCF62F32E3}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{20AF728B-ED3E-49DB-8088-E8922FEA2025}" ShortID="147970522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pers_JumpUp" ID="{3B86103E-EE7A-4D24-8FAF-B3A93EFAE8DD}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pers_JumpUp" ID="{3B0BDDBA-6B02-474C-B9C5-68A3280A2B06}">
+					<ChildrenList>
+						<Action Name="" ID="{78233C5C-6F0B-4FC8-8B1E-F9F3E09F5CD8}" ShortID="411130726">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pers_JumpUp" ID="{3B86103E-EE7A-4D24-8FAF-B3A93EFAE8DD}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_amb_DRONE" ID="{3097253A-F944-41E7-9222-0361C3D47951}">
+					<ChildrenList>
+						<Action Name="" ID="{4A2459CD-C75D-46E6-8393-5E2CBDA3B27C}" ShortID="1063689603">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{807F78E8-A40A-4C5E-ABAF-DEB3E9ADAFB8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_DRONE" ID="{B80463AE-B691-490F-B7ED-668A6F3CB33B}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_amb_WIND" ID="{58DF6813-9EB6-407E-AEDA-6B6BDCD99E4C}">
+					<ChildrenList>
+						<Action Name="" ID="{1B0315F8-843A-4696-8CDB-B57F3E3420B4}" ShortID="360437164">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B75C899A-B081-4822-85BE-DB6B5BEA36AB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_WIND" ID="{E5B8749F-451A-4CC2-A5C2-A93D17784DBB}" WorkUnitID="{202918CC-99B6-416E-8525-05908654F883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9389B1B2-F48E-449C-AD4E-04F70EA51D13}" ShortID="892044296">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_amb_DRONE" ID="{3097253A-F944-41E7-9222-0361C3D47951}" WorkUnitID="{2DD6308E-CC7E-4FBE-87A9-9ED92F878A3C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
