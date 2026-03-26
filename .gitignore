@@ -18,6 +18,7 @@ Plugins/WwiseSoundEngine/Intermediate/
 Plugins/WwiseSoundEngine/Binaries/
 ueFirstPerson_WwiseProject/GeneratedSoundBanks/
 ueFirstPerson_WwiseProject/.cache/
+ueThirdPerson_WwiseProject/*.prof
 
 # Mac
 .DS_Store
