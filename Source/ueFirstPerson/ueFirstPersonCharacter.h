@@ -57,6 +57,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* LookAction;
     
+    
+    
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Wwise")
     UAkAudioEvent* FootstepWwiseEvent;
     
@@ -68,6 +70,8 @@ public:
     
     UFUNCTION()
     void PlayFootstepSound();
+    
+    
 
 protected:
 	/** Called for movement input */

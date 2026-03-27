@@ -23,16 +23,13 @@ public:
     
 
 
-	/** Sound to play each time we fire */
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Wwise")
     TObjectPtr<UAkAudioEvent> FireWwiseEvent;
     
-    // ADD THIS:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Wwise")
     UAkAudioEvent* EquipWwiseEvent;
-//
-//	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-//	USoundBase* FireSound;
+    
+    
 	
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
